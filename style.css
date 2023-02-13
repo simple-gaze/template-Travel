@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Quicksand;
+}
+
+.wrapper {
+    max-width: 1200px;
+    min-width: 801px;
+    width: auto;
+    margin: 0 auto;
+    padding: 45px;
+    background-color: #fff5ea;
+}
+
+.frame {
+    padding: 40px;
+    border: 2px solid #000000;
+}
+
+/* header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.line {
+    width: 100px;
+    height: 2px;
+    background-color: #000000;
+    
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container {
+    width: 50%;
+}
+
+.container p {
+    max-width: 90%;
+}
+
