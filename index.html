@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="frame">
+            <header>
+                <img src="ava.jpg" alt="avatar">
+                <h1>AMAL BEGISHEV</h1>
+                <p>FRONT-END DEVELOPER</p>
+                <div class="line"></div>
+            </header>
+            <main>
+                <div class="container">
+                    <h2>ABOUT ME</h2>
+                    <p>I want to become an experienced front-end developer, learn how to write clean and efficient code. I am ready to work hard and be persistent, even when the task is not solved the first time. I can work in a team and peacefully resolve differences.</p>
+                </div>
+                <div class="container">
+                    <h2>CONTACTS</h2>
+                    <ul>
+                        <li>email: begishev.a.r@gmail.com</li>
+                        <li>telegram: @GreenLight999</li>
+                        <li>phone: +79393698944</li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <h2>EXAMPLE CODE</h2>
+                    <code>
+                        <pre>
+function cakes(recipe, available) {
+    let m = [];
+        Available = new Map(Object.entries(available));
+    for (let key in recipe) {
+        if ( Available.has(key) ) {
+            m.push( Math.floor( available[key] / recipe[key] ) )
+        } else return 0;
+    }
+    return Math.min(...m)
+}
+                        </pre>
+                    </code>
+                </div>
+                <div class="container">
+                    <h2>SKILLS</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript(basics)</li>
+                        <li>Git/GitHab</li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <h2>PROJECTS</h2>
+                    <p>cv</p>
+                </div>
+                <div class="container">
+                    <h2>EDUCATION</h2>
+                    <p>Kazan State Power Engineering University, applied informatics in economics</p>
+                </div>
+                <div class="container">
+                    <h2>ENGLISH LANGUAGE</h2>
+                    <p>A2</p>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
