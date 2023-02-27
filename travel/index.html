@@ -13,6 +13,7 @@
 </head>
 <body>
   <div class="page">
+    
   <header class="header">
     <div class="header__container">
 
@@ -31,7 +32,7 @@
       </nav>
 
       <div class="header__rightside">
-          <a href="#" class="button header__button">Login</a>
+          <a href="#" class="button header__button open-popup">Login</a>
       </div>
 
     </div>
@@ -39,13 +40,68 @@
 
   <main>
     <section class="preview">
+      <div class="popup-bg">
+        <div class="popup popup-login">
+          <img src="assets/icons8-cancel.svg" alt="" class="close-popup">
+          <div class="popup__container">
+            <div class="popup__title">Log in to your account</div>
+            <a href="#" class="popup__button popup__fb">
+              <img src="assets/Facebook-Logo.svg" alt="">
+              Sign In with Facebook
+            </a>
+            <a href="#" class="popup__button popup__google">
+              <img src="assets/Google-Logo.svg" alt="">
+              Sign In with Google
+            </a>
+            
+            <div class="popup__line">
+              <div class="popup__hr"></div>
+              <div class="popup__or">or</div>
+              <div class="popup__hr"></div>
+            </div>
+
+            <form action="" class="popup__form">
+              <label class="popup__label" for="email">E-mail</label>
+              <input class="popup__input" type="text" id="email">
+              <label class="popup__label" for="password">Password</label>
+              <input class="popup__input" type="text" name="" id="password">
+              <a href="#" class="popup__button popup__submit">Sign In</a>
+            </form>
+            <a href="#" class="popup__ques"><b>Forgot Your Password?</b></a>
+            <div class="popup__hr"></div>
+            <div class="popup__remark">Don’t have an account?
+              <a href="#" class="popup__ques open-signup"><b>Register</b></a>  
+            </div>
+          </div>
+        </div>
+
+        <div class="popup popup-signup">
+          <img src="assets/icons8-cancel.svg" alt="" class="close-popup">
+          <div class="popup__container">
+            <div class="popup__title">Create account</div>
+            <form action="" class="popup__form">
+              <label class="popup__label" for="email">E-mail</label>
+              <input class="popup__input" type="text" id="email">
+              <label class="popup__label" for="password">Password</label>
+              <input class="popup__input" type="text" name="" id="password">
+              <a href="#" class="popup__button popup__submit">Sign Up</a>
+            </form>
+            <div class="popup__hr"></div>
+            <div class="popup__remark">Already have an account?
+              <a href="#" class="popup__ques open-login"><b>Log in</b></a>  
+            </div>
+          </div>
+        </div>
+
+      </div>
+
       <div class="preview__container">
         <div class="preview__content">
           <h1 class="preview__title">Explore the beauty of the World</h1>
           <p class="preview__description">Receive personalized recommendations for countries, hotels, activities and more</p>
           <div class="preview__search-container">
             <form class="search__form"> 
-              <input class="search__field" type="text" name="text" class="search" placeholder="What would you like to do?">
+              <input class="search__field" type="text" name="text" placeholder="What would you like to do?">
               <a href="#" class="button search__button">Start Planning</a>
             </form>
           </div>
