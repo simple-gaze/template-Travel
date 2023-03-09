@@ -11,24 +11,5 @@ I want to become an experienced front-end developer, learn how to write clean an
     + HTML
     + CSS
     + JavaScript(basics)
-    + Git/GitHab
+    + Git/GitHub
 
-* ***Example code:*** 
-``` javascript
-function cakes(recipe, available) {
-    let m = [];
-        Available = new Map(Object.entries(available));
-    for (let key in recipe) {
-        if ( Available.has(key) ) {
-            m.push( Math.floor( available[key] / recipe[key] ) )
-        } else return 0;
-    }
-    return Math.min(...m)
-  }
-```
-
-* ***Projects:*** will be url...
-
-* ***Education:*** Kazan State Power Engineering University, applied informatics in economics
-
-* ***English language:*** A2
