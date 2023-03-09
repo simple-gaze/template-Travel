@@ -1,1 +1,1 @@
-https://simple-gaze.github.io/rsschool-cv/cv
+https://simple-gaze.github.io/rsschool-cv/
